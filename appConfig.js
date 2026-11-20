@@ -25,7 +25,7 @@ function serviceRoutes(app) {
 
   /* eslint-disable global-require */
 
-  app.use('/flights', require('flights')); // attach to sub-route
+  app.use('/', require('flights')); // attach to sub-route
 
   /* eslint-enable global-require */
 }
